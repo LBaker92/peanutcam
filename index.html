@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PEANUT CAM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="titlebar">
+        <div id="app-title" class="titlebar-title"></div>
+        <div class="titlebar-btns">
+            <div id="app-minimize" class="titlebar-btn">&#x030;</div>
+            <div id="app-maximize" class="titlebar-btn">&#x031;</div>
+            <div id="app-close" class="titlebar-btn">&#x072;</div>
+        </div>
+    </div>
+    <div class="stream-container">
+        <div class="stream-content">
+            <iframe id="stream" src="https://v.angelcam.com/iframe?v=n8l9dz94r0&autoplay=1&mute=1" frameborder="0" allowfullscreen="true"></iframe>
+        </div>
+        <div class="stream-cover"></div>
+    </div>
+    <script>window.$ = window.jQuery = require('jquery');</script>
+    <script src="js/controller.js"></script>
+</body>
+
+</html>
