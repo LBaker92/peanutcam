@@ -3,11 +3,11 @@ const win = require('electron').remote.getCurrentWindow();
 $(document).ready(function() {
 
     win.on('maximize', function() {
-        $('#app-maximize').text(String.fromCodePoint('0x032')); // square icon.
+        $('#app-maximize').text(String.fromCodePoint('10064'));
     })
 
     win.on('unmaximize', function() {
-        $('#app-maximize').text(String.fromCodePoint('0x031')); // double square icon.
+        $('#app-maximize').text(String.fromCodePoint('9744'));
     })
 
     $('#app-title').text(document.title);

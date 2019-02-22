@@ -38,8 +38,8 @@ body {
     width: 2.5rem;
     height: 2rem;
     cursor: pointer;
-    font-family: 'Marlett';
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: thin;
     -webkit-app-region: no-drag;
 }
 .titlebar-btn:hover {
