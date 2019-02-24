@@ -1,0 +1,16 @@
+{
+  "name": "peanutcam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/index.js",
+  "dependencies": {
+    "electron": "^4.0.5",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "Logan Baker",
+  "license": "ISC"
+}
